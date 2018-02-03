@@ -1,0 +1,14 @@
+.UserOutput {
+  margin-bottom: 30px;
+}
+.UserOutput p{
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.UserOutput p:last-child{
+  color: darkgray
+}
+.UserOutput p:first-child{
+  font-weight: bold;
+  font-size: 28px;
+}
