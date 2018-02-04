@@ -5,7 +5,6 @@ import ValidationComponent from './ValidationComponent/ValidationComponent'
 import CharComponent from './CharComponent/CharComponent'
 
 class App extends Component {
-
   state = {
     textInput: 'MyText'
   }
@@ -42,7 +41,6 @@ class App extends Component {
         <p>{this.state.textInput.length}</p>
         <ValidationComponent lengthParagraf={this.state.textInput.length} />
         {charList}
-        <br />
         <hr/>
       </div>
     );
