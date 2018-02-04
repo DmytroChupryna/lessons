@@ -5,6 +5,7 @@ import ValidationComponent from './ValidationComponent/ValidationComponent'
 import CharComponent from './CharComponent/CharComponent'
 
 class App extends Component {
+  
   state = {
     textInput: 'MyText'
   }
